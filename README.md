@@ -97,5 +97,3 @@ The consumer will:
 - Process incoming messages
 - Index data into OpenSearch
 - Handle batch processing for efficiency
-
-```
