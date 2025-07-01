@@ -2,7 +2,7 @@
 
 A real-time data streaming pipeline built with Apache Kafka that ingests live Wikimedia recent changes data and indexes it into OpenSearch for analysis and visualization.
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 This project implements a robust data pipeline with the following components:
 
@@ -15,7 +15,7 @@ Wikimedia Recent Changes Stream → Kafka Producer → Kafka Topic → Kafka Con
 - **Data Sink**: OpenSearch for indexing and search capabilities
 - **Language**: Java with Kafka Client APIs
 
-## 🚀 Features
+## Features
 
 - **Real-time Data Ingestion**: Continuous streaming of Wikimedia recent changes
 - **Fault Tolerance**: Kafka's built-in replication and durability guarantees
@@ -24,7 +24,7 @@ Wikimedia Recent Changes Stream → Kafka Producer → Kafka Topic → Kafka Con
 - **Monitoring**: Built-in logging and error handling
 - **Configurable**: Easy-to-modify configuration for different environments
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before running this project, ensure you have:
 
@@ -33,7 +33,7 @@ Before running this project, ensure you have:
 - OpenSearch
 - Docker (optional, for containerized deployment)
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
