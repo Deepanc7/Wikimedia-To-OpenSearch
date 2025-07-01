@@ -28,10 +28,9 @@ Wikimedia Recent Changes Stream → Kafka Producer → Kafka Topic → Kafka Con
 
 Before running this project, ensure you have:
 
-- Java 11 or higher
-- Apache Kafka 2.8+
-- OpenSearch 1.x or 2.x
-- Maven or Gradle (for dependency management)
+- Java 11
+- Apache Kafka
+- OpenSearch
 - Docker (optional, for containerized deployment)
 
 ## 🛠️ Installation & Setup
@@ -68,8 +67,6 @@ docker run -d \
 
 ### 4. Build the Project
 ```bash
-# Using Maven
-mvn clean compile
 
 # Using Gradle
 ./gradlew build
